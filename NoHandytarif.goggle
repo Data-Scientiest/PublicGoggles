@@ -6,14 +6,14 @@
 
 ! Remove results not matching any other rule
 
-$discard, site=congstar.de
-$discard, site=vodafone.de
-$discard, site=alditalk.de
+$discard,site=congstar.de
+$discard,site=vodafone.de
+$discard,site=alditalk.de
 
 
 !Schrott
-$discard, site=www.ortelmobile.de
-$discard, site=mobile.1und1.de
+$discard,site=www.ortelmobile.de
+$discard,site=mobile.1und1.de
 
 
 
