@@ -1,1 +1,20 @@
+! name: NoHandytarif
+! description: eine sammlung von Handytarifanbietern als Ausschluss. 
+! public: false
+! author: Geheim
+! avatar: #000000
 
+! Remove results not matching any other rule
+
+$discard, site= congstar.de
+$discard, site= vodafone.de
+$discard, site= alditalk.de
+
+
+!Schrott
+$discard, site= www.ortelmobile.de
+$discard, site= mobile.1und1.de
+
+
+
+! $discard, site= 
